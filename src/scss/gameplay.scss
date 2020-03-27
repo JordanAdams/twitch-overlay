@@ -1,0 +1,29 @@
+@import 'normalize.css';
+
+$pink: #ef32d9;
+$cyan: #89fffd;
+
+$gradient: linear-gradient(-30deg, $pink, $cyan);
+
+html, body {
+    width: 1920px;
+    height: 1080px;
+    background: transparent;
+    margin: 0;
+    padding: 30px;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+// body {
+//     background-image: url('../images/screenshots/farcry5.png');
+// }
+
+.camera-wrapper {
+    background: red;
+    width: 460px;
+    box-sizing: border-box;
+    background: $gradient;
+}
