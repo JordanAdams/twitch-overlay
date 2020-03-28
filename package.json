@@ -4,13 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel serve ./src/*.html"
+    "dev": "parcel ./src/*.html"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.3"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "babel-polyfill": "^6.26.0",
+    "normalize.css": "^8.0.1",
+    "prettier": "^2.0.2",
+    "query-string": "^6.11.1",
+    "twitch": "^4.0.7",
+    "typescript": "^3.8.3"
   }
 }

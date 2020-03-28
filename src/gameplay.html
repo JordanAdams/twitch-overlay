@@ -1,22 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <title>Gameplay Overlay</title>
-  <link rel="stylesheet" href="./scss/gameplay.scss">
-</head>
-
+<html>
 <body>
   <div class="camera-wrapper">
     <div class="camera-wrapper__camera"></div>
     <div class="highlights-wrapper">
       <div class="highlight">
-        <h1 class="highlight__title">Latest Follower</h1>
-        <p class="highlight__content">Fourohhfour</p>
+        <h1 class="highlight__title">
+          <span class="fas fa-heart"></span>&nbsp;
+          Follower
+        </h1>
+        <p class="highlight__content" id="latest-follower"></p>
+      </div>
+
+      <div class="highlight">
+        <h1 class="highlight__title">
+          <span class="fas fa-coins"></span>&nbsp;
+          Donation
+        </h1>
+        <p class="highlight__content">Coming soon...</p>
       </div>
     </div>
   </div>
+  <script src="./gameplay.ts"></script>
 </body>
-
 </html>
