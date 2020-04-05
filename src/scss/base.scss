@@ -2,6 +2,7 @@
 @import './variables.scss';
 
 html, body {
+  box-sizing: border-box;
   width: 1920px;
   height: 1080px;
   background-color: transparent;
